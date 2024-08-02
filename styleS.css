@@ -1,0 +1,461 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Phenomena EB';
+    src: url('Fonts/Phenomena/Phenomena-ExtraBold.eot');
+    src: url('Fonts/Phenomena/Phenomena-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/Phenomena/Phenomena-ExtraBold.woff') format('woff'),
+         url('Fonts/Phenomena/Phenomena-ExtraBold.woff2') format('woff2');
+         
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Phenomena';
+    src: url('Fonts/Phenomena/Phenomena-Regular.eot');
+    src: url('Fonts/Phenomena/Phenomena-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/Phenomena/Phenomena-Regular.woff') format('woff'),
+         url('Fonts/Phenomena/Phenomena-Regular.woff2') format('woff2');
+         
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Phenomena L';
+    src: url('Fonts/Phenomena/Phenomena-Light.eot');
+    src: url('Fonts/Phenomena/Phenomena-Light.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/Phenomena/Phenomena-Light.woff') format('woff'),
+         url('Fonts/Phenomena/Phenomena-Light.woff2') format('woff2');
+         
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+    
+    body {	
+        font-family:  Courier, monospace;
+        background-color: #44546A;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    #bg {	
+        
+        width="86px" ;
+        height="82px;
+    }        
+    .str{
+        background-color: white;
+        color: #44546A;
+        border: 1px white solid;
+        text-align: right;
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-top: -25px;
+        margin-left: 1075px;
+        font-family:  'Open Sans', Courier, monospace;
+    }
+    .sts{
+        color: black;
+        font-size: 20px;
+        margin: 0;
+        margin-left: 1000px;
+        position: absolute;
+    }
+    h1{
+        text-align: center;
+        color: #44546A;
+        font-size: 75px;
+        font-family: 'Phenomena';
+        position: inherit;
+        margin-top: -20px;
+    }
+
+    #Park{
+        color: #292929;
+        text-align: left;
+        text-shadow: 5px 5px 10px rgba(237, 255, 239, 0.977);
+        margin-top: 40px;
+        font-size: 90px;
+        
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    h2{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-shadow: 5px 5px 10px rgb(40, 50, 63, 0.9);
+        font-family: 'Open Sans';
+        margin-top: 1px;
+    }
+    
+    h3{
+        color: #44546A;
+        font-size: 25px;
+        font-family: 'Phenomena EB';
+        margin-top: -1px;
+        margin-left: 30px;
+    }
+
+    p{
+        text-align: justify;
+        color: #222222;
+        font-size: 22px;
+        margin: 20 50;
+        font-family: "Montserrat", Phenomena;
+    }
+
+    .rect{
+        background-color: #44546A;
+        margin-top: -15px;
+        height: 40px;
+        width: 100%;
+        position: fixed;
+    }  
+    
+      .rect1{
+        background-color: white;
+        height: 30px;
+        width: 100%;
+        margin-top: 30px;
+        position:absolute;
+        box-shadow: 0px 0px 5px 0px gray;
+    }
+
+    .rectadd{
+        background-color: white;
+        height: 30px;
+        width: 100%;
+        margin-top: 30px;
+        position:fixed;
+        box-shadow: 0px 0px 5px 0px gray;
+    }
+
+    .desc{
+        background-color: white;
+        height: 280px;
+        width: 120px;
+        margin-top: -210px;
+        font-family: 'Open Sans';
+    }
+
+    .blank{
+        background-color: #44546A;
+        height: 40px;
+        width: 1000px;
+    }
+
+    table{
+        border: 1px solid;
+        border-collapse:collapse;
+        width: 100%;
+    }
+    th, td{
+        text-align: left;
+        padding: 4px;
+        border-bottom: 1px solid #ddd;
+        background-color: rgba(128, 124, 124, 0.3);
+        text-align: center;
+        font-family: 'Open Sans';
+    }
+      
+    tr{
+        color: #000000;
+        }
+
+    tr:hover{
+      background: linear-gradient(180deg, #44546A, transparent) rgba(14, 92, 40, 0.5);
+    } 
+
+    .button:hover,.update:hover,.del:hover, .add:hover{
+      background: linear-gradient(180deg, #44546A, transparent) rgba(41, 41, 41, 0.8);
+    }
+    
+    th {
+        background-color: #44546A;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .add{
+        background-color: #292929; /* Green */
+        border: 1px white solid;
+        border-radius: 5px;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin-left: 20px;
+        font-family:  'Open Sans', Courier, monospace;
+    }
+
+   .login{
+        background-color: white;
+        color: #44546A;
+        border: 1px white solid;
+        text-align: right;
+        font-size: 20px;
+        margin-bottom: 30px;
+        margin-top: 5px;
+        margin-left: 1555px;
+        font-family:  'Open Sans', Courier, monospace;
+        position: absolute;
+    }
+
+    .button {
+        background-color: #44546A; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 20px;
+        font-family:  'Open Sans',Courier, monospace;
+        margin-right: 20px;
+    }    
+
+    .button1 {
+        background-color: #44546A; /* Green */
+        border: none;
+        color: white;
+        padding: 10px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        margin-left: 1345px;
+        font-family:  'Open Sans',Courier, monospace;
+        border-radius: 10px;
+    }    
+
+    .update, .del {
+        background-color: #44546A; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-bottom: 10px;
+        margin-top: -15px;
+        position: inherit;
+        font-family: 'Open Sans';
+    }
+
+    div {
+        width: 320px;
+        padding: 15px;
+        margin: 0;
+        margin-left: -20px;
+    }
+
+    .addone{
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    label{
+        color: white;
+        font-size: 20px;
+        font-family: 'Open Sans', Arial, sans-serif;
+    }
+     
+    
+    .ID{
+        margin-left: -20px;
+    }
+    .username{
+        margin-left: -60px;
+    }
+
+    .shopname{
+        margin-left: -12px;
+    }
+
+    .password{
+        margin-left: 7px;
+    }
+
+    .addsub{
+        padding: 10px 20px;
+        margin-left: 246px;
+        
+    }
+
+    .delete{
+        text-align: center;      
+        padding: 15px 20px;
+        margin-bottom: 10px;
+        margin-top: 0px;  
+    }
+
+    #search{
+        padding: 15px 32px; 
+        border-color: #44546A;
+    }
+
+    #search1{
+        padding: 10px 22px; 
+        margin-left: 1130px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        position: absolute;
+        border-color: #44546A;
+        border-radius: 10px;
+    }
+    
+    .ppl{
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+        margin-left: -40px;
+        position: absolute;
+    }
+    
+    label{
+    color:#44546A;
+    
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+
+body{
+  background: #44546a;
+  overflow: hidden;
+}
+::selection{
+  background: rgba(26,188,156,0.3);
+}
+.container{
+  max-width: 440px;
+  padding: 0 20px;
+  margin: 10px auto;
+
+}
+.wrapper{
+  width: 400px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.2);
+  margin-left: -40px;
+
+}
+.wrapper .title{
+  font-family: phenomena EB;
+  height: 90px;
+  border-radius: 5px 5px 0 0;
+  color: #44546A;
+  font-size: 90px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   margin-left: 20px;
+}
+.wrapper form{
+  padding: 30px 25px 25px 25px;
+}
+.wrapper form .row{
+  height: 45px;
+  width: 290px;
+  margin-bottom: 15px;
+  margin-left: 2px;
+  position: relative;
+  align-items: center;
+}
+.wrapper form .row input{
+  height: 110%;
+  width: 80%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  margin-left: 18px;
+
+}
+form .row input:focus{
+  border-color: #44546A;
+  box-shadow: inset 0px 0px 2px 2px rgba(64,84,186,0.25);
+}
+form .row input::placeholder{
+  color: #999;
+}
+.wrapper form .row i{
+  position: absolute;
+  width: 40px;
+  height: 70%;
+  color: #fff;
+  font-size: 18px;
+  background: #44546A;
+  border: 1px solid #44546A;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form .pass{
+  margin: -8px 0 20px 0;
+}
+.wrapper form .pass a{
+  color: #44546A;
+  font-size: 17px;
+  text-decoration: none;
+  margin-left: -35px;
+
+}
+.wrapper form .pass a:hover{
+  text-decoration: underline;
+}
+.wrapper form .button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #44546A;
+  border: 1px solid #44546A;
+  cursor: pointer;
+  border-radius: 5px;
+}
+form .button input:hover{
+  background: #44546A;
+}
+.wrapper form .signup-link{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+  margin-left: -18px;
+  
+}
+.wrapper form .signup-link a{
+  color: #16a085;
+  text-decoration: none;
+}
+form .signup-link a:hover{
+  text-decoration: underline;
+}
+
+#SSS{
+	margin-left:10px;
+}
+
+
